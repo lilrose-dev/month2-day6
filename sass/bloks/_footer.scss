@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    background-color:var(--color-dark);
+    padding: 47px 85px;
+
+    &__logo {
+        margin-right: 103px;
+    }
+    
+    &__nav {
+        display: flex;
+        margin-right: 300px;
+        
+        &__item {
+            margin-left: 32px;
+            
+            &__link {
+                text-decoration: none;
+                font-family: "Barlow";
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 15px;  
+                color: var(--color-grey);
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.sites {
+    display: flex;
+    align-items: center;
+    
+    &__item {
+        margin-left: 24px;
+        
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}

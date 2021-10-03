@@ -175,6 +175,10 @@ h1, h2, h3, p {
   border-radius: 8px;
 }
 
+.country-wrapper {
+  max-width: 1045px;
+}
+
 .headquarter-heading {
   font-family: "Fraunces";
   font-size: 24px;
@@ -192,22 +196,16 @@ h1, h2, h3, p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 169px;
 }
 
 .countries__item {
   width: 285px;
   text-align: left;
   margin-right: 95px;
-}
-
-.countries__item:before {
-  content: "";
-  width: 41px;
-  height: 50px;
-  background-image: url(./../../images/kingdom.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: 45px;
 }
 
 .countries__item__heading {
@@ -225,5 +223,91 @@ h1, h2, h3, p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.countries__item--kingdom:before {
+  content: "";
+  display: block;
+  width: 41px;
+  height: 50px;
+  background-image: url(./../../images/kingdom.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 45px;
+  margin-right: 95px;
+}
+
+.countries__item--canada:before {
+  content: "";
+  display: block;
+  width: 51px;
+  height: 50px;
+  background-image: url(./../../images/canada.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 45px;
+  margin-right: 95px;
+}
+
+.countries__item--australia:before {
+  content: "";
+  display: block;
+  width: 49px;
+  height: 44px;
+  background-image: url(./../../images/australia.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 45px;
+  margin-right: 95px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--color-dark);
+  padding: 47px 85px;
+}
+
+.footer__logo {
+  margin-right: 103px;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 300px;
+}
+
+.footer__nav__item {
+  margin-left: 32px;
+}
+
+.footer__nav__item__link {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  color: var(--color-grey);
+  text-transform: uppercase;
+}
+
+.sites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sites__item {
+  margin-left: 24px;
+}
+
+.sites__item:first-child {
+  margin-left: 0;
 }
 /*# sourceMappingURL=main.css.map */
