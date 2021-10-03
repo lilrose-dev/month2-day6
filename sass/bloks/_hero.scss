@@ -1,0 +1,29 @@
+.hero {
+    background-image: url(./../../images/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 168px;
+    
+    &__box {
+        width: 445px;
+        padding: 135px 0 135px 85px;
+        text-align: left;
+        color:var(--color-cream);
+        
+        &__heading {
+            font-family: "Fraunces";
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-family: "Barlow";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+}

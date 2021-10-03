@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    
+    &__logo {
+        display: block;
+    }
+}
+
+.nav-list {
+    display: flex;
+    
+    &__item {
+        margin-left: 33px;
+        
+        &__link {
+            text-decoration: none;
+            font-family: "Barlow";
+            color:var(--color-grey);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.9px;
+            line-height: 15px;
+            text-transform: uppercase;
+        }
+    }
+}
