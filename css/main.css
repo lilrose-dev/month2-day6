@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
 :root {
-  --color-grey:#83888F;
+  --color-grey: #83888F;
   --color-dark:#333D4B;
   --color-cream:#FEFCF7;
 }
@@ -182,6 +182,7 @@ h1, h2, h3, p {
   line-height: 32px;
   text-align: left;
   color: var(--color-grey);
+  margin-bottom: 72px;
 }
 
 .countries {
@@ -197,6 +198,16 @@ h1, h2, h3, p {
   width: 285px;
   text-align: left;
   margin-right: 95px;
+}
+
+.countries__item:before {
+  content: "";
+  width: 41px;
+  height: 50px;
+  background-image: url(./../../images/kingdom.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 45px;
 }
 
 .countries__item__heading {
