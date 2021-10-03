@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
 :root {
-  --color-grey: #83888F;
+  --color-grey:#83888F;
   --color-dark:#333D4B;
   --color-cream:#FEFCF7;
 }
@@ -127,6 +127,89 @@ h1, h2, h3, p {
 }
 
 .commitment__right__text {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: var(--color-dark);
+  color: var(--color-cream);
+  border-radius: 10px;
+  margin-bottom: 168px;
+}
+
+.quality__left {
+  width: 540px;
+  padding: 88px 0 176px 85px;
+}
+
+.quality__left__heading {
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+.quality__left__text {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.quality__right {
+  position: absolute;
+  left: 950px;
+  top: 1419px;
+  border-radius: 8px;
+}
+
+.headquarter-heading {
+  font-family: "Fraunces";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: left;
+  color: var(--color-grey);
+}
+
+.countries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.countries__item {
+  width: 285px;
+  text-align: left;
+  margin-right: 95px;
+}
+
+.countries__item__heading {
+  font-family: "Fraunces";
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  color: var(--color-dark);
+  margin-bottom: 24px;
+}
+
+.countries__item__text {
+  width: 150px;
   font-family: "Barlow";
   font-size: 16px;
   font-weight: 400;
